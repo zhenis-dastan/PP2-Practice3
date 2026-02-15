@@ -1,0 +1,35 @@
+1
+square = lambda x: x * x
+print(square(5))
+
+
+
+2
+add = lambda a, b: a + b
+print(add(3, 7))
+
+
+
+3
+numbers = [1, 2, 3]
+result = list(map(lambda x: x * 2, numbers))
+print(result)
+
+
+
+4
+numbers = [1, 2, 3, 4, 5]
+evens = list(filter(lambda x: x % 2 == 0, numbers))
+print(evens)
+
+
+
+5
+students = [("Tom", 20), ("Anna", 18)]
+sorted_students = sorted(students, key=lambda x: x[1])
+print(sorted_students)
+
+
+
+
+
