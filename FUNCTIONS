@@ -1,0 +1,39 @@
+1
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))
+
+
+2
+def add(a, b):
+    return a + b
+
+print(add(5, 3))
+
+
+3
+def power(base, exponent=2):
+    return base ** exponent
+
+print(power(4))
+print(power(2, 3))
+
+
+4
+def sum_all(*numbers):
+    return sum(numbers)
+
+print(sum_all(1, 2, 3, 4))
+
+
+
+5
+def print_user(**data):
+    for key, value in data.items():
+        print(f"{key}: {value}")
+
+print_user(name="Tom", age=25)
+
+
+
